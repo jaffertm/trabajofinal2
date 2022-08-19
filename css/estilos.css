@@ -1,0 +1,354 @@
+/* Paleta de colores */
+/* #333333
+#4b8a20
+#dddddd
+#e7123a. */
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #4b8a20;
+    font-family: 'Tiro Tamil', serif;
+}
+
+#contenedor{
+    background-color:  #fff;
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+}
+
+header img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.menu{
+    list-style-type: none;
+    list-style: none;
+    background-color: rgb(16, 16, 16);
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    background-color: rgb(16, 16, 16);
+}
+.menu > li{
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background: #333333 ;
+}
+
+.menu li ul{
+    position: absolute;
+    display: none;
+    width: 230px;
+    min-width: 140px;
+    list-style: none;
+}
+
+.menu li:hover >ul{
+    display: block;
+}
+
+article{
+    padding: 20px;
+    margin-left: 10px;
+}
+
+table, th, td{
+    border: solid 1px #6da7e5;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+.fila1{
+    background-color: rgba(78,168,191,255);
+}
+
+.fila2{
+    background-color: rgba(159,216,232,255);
+}
+
+.fila3{
+    background-color: rgba(208,245,253,255);
+}
+
+.fila4{
+    background-color: rgba(159,216,232,255);
+}
+
+.fila5{
+    background-color: rgba(208,245,253,255);
+}
+
+.fila6{
+    background-color: rgba(159,216,232,255);
+}
+
+table{
+    padding: 20px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+.siguenos{
+    width: 50px;
+}
+
+h3{
+    margin-top: 50px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.siguenos a{
+    padding: 5px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    max-width: 900px;
+    gap: 9%;
+}
+
+.ter{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.recomendados img{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+
+}
+
+.recomendados {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer
+}
+
+span{
+    padding: 10px;
+    text-align: center;
+}
+
+.escribenos{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.escribe{
+    font-size: 30px;
+}
+.text input{
+    width: 96%;
+    height: 30px;
+}
+textarea{
+    width: 97%;
+    height: 90px;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    background-color: #dddddd;
+}
+
+.enviar input{
+    background-color: #4b8a20;
+    color: #fff;
+    width: 50px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    color: white;
+}
+.final{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    gap: 3%;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.subir a{
+    text-decoration: none;
+    background-color: #918e8e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tit{
+    margin-bottom: 10px;
+}
+
+.ciclos{
+    font-size: 10px;
+}
+
+.cursos{
+    font-size: 20px;
+}
+
+.cursos img{
+    width: 100%;
+    max-width: 700px;
+    padding: 5px;
+}
+
+.tegnologia{
+    font-size: 10px;
+}
+
+.quehace{
+    text-align: center;
+}
+
+.funci{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.somos{
+    padding: 7px;
+}
+
+.formularioregistro{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-style: oblique;
+}
+
+
+.controles{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(246,224 ,249 );
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+.grupo{
+    padding: 10px;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+
+.radio{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+.boton{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.formularioregistro a{
+    color: black;
+}
+
+
+@media screen and (max-width: 1150px){
+    .contenido{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 40%;
+        max-width: 900px;
+        gap: 9%;
+    }
+    main img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .siguenos{
+        width: 100%;
+        display: flex;
+    }
+}
+@media screen and (max-width: 750px){
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .final{
+        display: grid;
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+        font-size: 11px;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        gap: 3%;
+        margin: auto;
+        padding: 10px;
+    }
+    main img{
+        width: 100%;
+    }
+    .subir a{
+        font: 11px;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .contenido{
+        width: 100%;
+        display: block;
+    }
+    table{
+        width: 100%;
+        max-width: 900px;
+    }
+}
